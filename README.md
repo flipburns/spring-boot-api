@@ -3,22 +3,22 @@ Base spring boot project for getting started with api development - fork and mod
 
 Code taken and adapted from https://spring.io/guides/gs/spring-boot/
 
-#prerequisites
+#Prerequisites
 
 - Java (1.8 preferred)
 - Gradle
 
 #Build and run
 
-navigate to root dir and run `gradle build` - this will generate the packaged jar file inside build/libs directory as 'spring-boot-0.jar'
+Navigate to root dir and run `gradle build` - this will generate the packaged jar file inside build/libs directory as 'spring-boot-0.jar'
 
-then run `java -jar spring-boot-0.jar` to start the application
+Then run `java -jar spring-boot-0.jar` to start the application
 
-navigate to `http://www.localhost:8080/api` to hit the example api endpoint, you should get a simple text response reading `api success`
+Navigate to `http://www.localhost:8080/api` to hit the example api endpoint, you should get a simple text response reading `api success`
 
-from here it's possible to begin developing apis as you would with spring MVC.
+From here it's possible to begin developing apis as you would with spring MVC. Start with the controller and build up from there. 
 
-#Spring actuator
+#Spring Actuator
 
 The project includes spring boot actuator which provides some health check, metrics, and mapping endpoints under:
 
