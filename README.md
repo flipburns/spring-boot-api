@@ -21,6 +21,8 @@ from here it's possible to begin developing apis as you would with spring MVC.
 The project includes spring boot actuator which provides some health check, metrics, and mapping endpoints under:
 
 `http://www.localhost:8080/mappings` - shows available endpoints
+
 `http://www.localhost:8080/health` - shows if application is running
+
 `http://www.localhost:8080/metrics` - shows metrics
 
