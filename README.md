@@ -1,5 +1,7 @@
 # spring-boot
-base spring boot project for getting started with api development - fork and modify to begin developing a spring boot application.
+Base spring boot project for getting started with api development - fork and modify to begin developing a spring boot application.
+
+Code taken and adapted from https://spring.io/guides/gs/spring-boot/
 
 #prerequisites
 
