@@ -1,6 +1,7 @@
 package com.mycompany.boot.controller;
 
 import com.mycompany.boot.Application;
+import com.mycompany.boot.TestUtils;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,7 +23,7 @@ import static org.junit.Assert.assertThat;
 @SpringApplicationConfiguration(classes = Application.class)
 @WebAppConfiguration
 @IntegrationTest({"server.port=0"})
-public class MyApiControllerIT {
+public class HelloControllerIT {
 
     @Value("${local.server.port}")
     private int port;
@@ -32,13 +33,13 @@ public class MyApiControllerIT {
 
     @Before
     public void setUp() throws Exception {
-        this.base = new URL("http://localhost:" + port + "/api");
+        this.base = new URL("http://localhost:" + port + "/hello/philip");
         template = new TestRestTemplate();
     }
 
     @Test
     public void getHello() throws Exception {
         ResponseEntity<String> response = template.getForEntity(base.toString(), String.class);
-        assertThat(response.getBody(), equalTo("api success"));
+        assertThat(response.getBody(), equalTo(TestUtils.readToStringFromClasspath("com/mycompany/boot/controller/hello-good-response.json")));
     }
 }
