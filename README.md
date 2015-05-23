@@ -10,9 +10,9 @@ Code taken and adapted from https://spring.io/guides/gs/spring-boot/
 
 #Build and run
 
-Navigate to root dir and run `gradle build` - this will generate the packaged jar file inside build/libs directory as 'spring-boot-0.jar'
+Navigate to root dir and run `gradle build` - this will generate the packaged jar file inside build/libs directory as 'spring-boot-api-1.jar'
 
-Then run `java -jar spring-boot-0.jar` to start the application
+Then run `java -jar spring-boot-api-1.jar` to start the application
 
 Navigate to `http://www.localhost:8080/hello/yourname` to hit the example api endpoint, where `yourname` is your actual name, you should get a simple json response which greets you inside the object.
 
