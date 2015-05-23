@@ -1,5 +1,5 @@
 # spring-boot
-Base spring boot project for getting started with api development - fork and modify to begin developing a spring boot application. Unlink https://github.com/flipburns/spring-boot , this forces some paradigms into the application and is more personal than the generic version. Maybe you'll like some of the features and it'll make life easier...maybe not. I will use this template for my own microservices and find that it is a nice pattern for bog standard apis.
+Base spring boot project for getting started with api development - fork and modify to begin developing a spring boot application. Unlike https://github.com/flipburns/spring-boot , this forces some paradigms into the application and is more personal than the generic version. Maybe you'll like some of the features and it'll make life easier...maybe not. I will use this template for my own microservices and find that it is a nice pattern for bog standard apis.
 
 Code taken and adapted from https://spring.io/guides/gs/spring-boot/
 
