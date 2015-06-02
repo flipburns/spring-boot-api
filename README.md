@@ -31,6 +31,7 @@ this project will have some additional enhancements in the future, including:
 - Exception Handlers
 - Swagger integration for api documentation/test page
 - integration with/usage of property files
+- ehcache integration with pure annotations
 
 #Spring Actuator
 
